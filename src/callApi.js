@@ -17,15 +17,7 @@ function CallApi() {
 
 
 
-  // const [user, setuser] = useState(undefined);
-  // useEffect(() => {
-  //   (async () => {
-  //     const {data} = await getuser();
-  //     setuser(data);
-  //   })();
-  //   return () => {};
-  // }, []);
-
+  
   const handleKeyDown = (event) => {
     if (lettres.includes(event.key)) {
       console.log('Une lettre a été toucher', event.key);
@@ -47,10 +39,7 @@ function CallApi() {
   };
 
 
-  // const getuser = async () => {
-  //   const dataJson = await fetch("https://animalfinderapi.herokuapp.com/user");
-  //   return await dataJson.json();
-  // };
+  
 
   if (!word) {
     return <p>En attente 
