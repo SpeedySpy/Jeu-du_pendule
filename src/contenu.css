@@ -1,0 +1,22 @@
+.contenu {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 4vw;
+    height: 100vh;
+    color: #333;
+    background: #DEDBD6;
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+.contenu.dark {
+    color: #fff;;
+    background: black;
+}
+
+.contenu.light {
+
+color: black;
+background: #DEDBD6;
+}
